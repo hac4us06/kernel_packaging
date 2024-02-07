@@ -45,13 +45,13 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 #Method 2:
 split_boot;
-ui_print "- Installing Grass Kernel";
+ui_print "- Installing Electro Kernel";
 flash_boot;
 
 ui_print "- Installation finished successfully";
 ui_print " ";
 
-#ui_print "- Thank you for using Eureka Kernel :)";
+#ui_print "- Thank you for using ashcafe Kernel :)";
 #ui_print " ";
 
 ## end install
